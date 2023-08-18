@@ -3,7 +3,7 @@ namespace App\Models;
 use Spatie\Permission\Models\Permission as SpatiePermission;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 
-class Role extends SpatiePermission
+class Permission extends SpatiePermission
 {
     use HasUuids;
 }
